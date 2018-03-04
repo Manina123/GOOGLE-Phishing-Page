@@ -1,14 +1,14 @@
 <?php
-$con = mysqli_connect('localhost','id4100459_user','h5a5c5k5','id4100459_users');
+$con = mysqli_connect('localhost','username','password','database');
 $email = $_POST['email'];
 $password = $_POST['password'];
-$query = "insert into id4100459_users.user(email,password) VALUES ('$email','$password');";
-$queryone = "select * from user where password = $password";
+$query = "insert into database.tablename(email,password) VALUES ('$email','$password');";
+$queryone = "select * from tablename where password = $password";
 $queryone_result = mysqli_query($con, $queryone);
 $row = mysqli_num_rows($queryone_result);
 if ($row >= 1){
-    header ('location:roman.html');
+    header ('location:Redirect.html');
 } else {
- header ('location:back.php');   
+ header ('location:Retry.php');   
 }
 ?>
