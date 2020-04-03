@@ -11,8 +11,8 @@ Thank you
  ( G )( M )( A )( I )( L )
  
  
- Create free account in 000webhostapp or any free hosting site then upload this files 
- change your mail address in send.php
+ Create free account in 000webhostapp or any free hosting site then upload this files,  
+ then change your mail address in send.php
  Thank you :)
  
  
