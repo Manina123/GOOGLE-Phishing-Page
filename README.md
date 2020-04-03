@@ -15,4 +15,3 @@ Thank you
  then change your mail address in send.php
  Thank you :)
  
- 
